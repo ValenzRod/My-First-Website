@@ -1,0 +1,94 @@
+/* Style sheet */
+* {
+    background-color: #1F2937;
+}
+
+.header {
+ background-color: #1F2937;
+ display: flex;
+ justify-content: space-around;
+ padding: 8px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.linkh {
+    text-decoration: none;
+    color: #F9FAF8; 
+}
+
+.linkh:active {
+    color: #1F2937;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 35px;
+}
+
+.right {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+.sec2 {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.sec21 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.title1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.text1 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+  align-self: flex-start;
+  border: none;
+  
+  padding: 20px;
+  padding-left: 0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  
+  
+}
+
+.button1 {
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding:5px 25px;
+    
+}
+
+.button1:active {
+    background-color: #1F2937;
+}
+
